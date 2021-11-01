@@ -1,0 +1,64 @@
+
+/* utility classes */
+.l-heading{
+    font-size:2rem;
+    line-height: 1.2;;
+}
+
+/* NavBar*/
+#navbar{
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+.lead{
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+#navbar{
+    margin-bottom: 1rem;
+}
+
+/* About */
+#about .about-content{
+    display: block;
+    text-align: center;
+}
+
+#about .about-content img{
+    width: 100%;
+    margin:1rem 0 0 0;
+}
+
+/*Programs*/
+#programs .boxes{
+    display: blok;
+}
+
+/* trainers*/
+#trainers .trainers-boxes{
+    display: block;
+}
+
+/* contact*/
+#contact {
+    flex-direction: column;
+    height: 1000px;
+}
+
+@media (max-width:500px) {
+    #navbar{
+        position: static;
+    }
+    #navbar ul{
+        display: block;
+        text-align: center;
+    }
+    #navbar ul li{
+        padding: 1rem;
+    }
+    #contact .contact-us .form-group{
+        display: block;
+    }
+}
